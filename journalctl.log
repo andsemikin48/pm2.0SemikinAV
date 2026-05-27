@@ -1,0 +1,100 @@
+мая 27 19:12:42 PM2 kernel: capability: warning: `gvfsd-admin' uses 32-bit capabilities (legacy support in use)
+мая 27 19:12:43 PM2 polkitd[1609]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+мая 27 19:12:43 PM2 systemd[1]: Created slice system-polkit\x2dagent\x2dhelper.slice - Slice /system/polkit-agent-helper.
+мая 27 19:12:43 PM2 systemd[1]: Starting polkit-agent-helper@0-1-3428_8848-1000.service - Authorization Manager Agent Helper (PID 3428/UID 1000)...
+мая 27 19:12:50 PM2 systemd[1]: polkit-agent-helper@0-1-3428_8848-1000.service: Deactivated successfully.
+мая 27 19:12:50 PM2 systemd[1]: Finished polkit-agent-helper@0-1-3428_8848-1000.service - Authorization Manager Agent Helper (PID 3428/UID 1000).
+мая 27 19:13:43 PM2 dbus-daemon[3120]: [session uid=1000 pid=3120 pidfd=5] Activating service name='org.gnome.TextEditor' requested by ':1.153' (uid=1000 pid=9819 comm="/usr/bin/nautilus --gapplication-service" label="unconfined")
+мая 27 19:13:43 PM2 dbus-daemon[3120]: [session uid=1000 pid=3120 pidfd=5] Successfully activated service 'org.gnome.TextEditor'
+мая 27 19:13:43 PM2 gnome-text-editor[11370]: The resource style-hc.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+мая 27 19:13:43 PM2 org.gnome.TextEditor[11370]: libEGL warning: failed to get driver name for fd -1
+мая 27 19:13:43 PM2 org.gnome.TextEditor[11370]: libEGL warning: MESA-LOADER: failed to retrieve device information
+мая 27 19:13:43 PM2 org.gnome.TextEditor[11370]: libEGL warning: failed to get driver name for fd -1
+мая 27 19:13:43 PM2 org.gnome.TextEditor[11370]: MESA: error: ZINK: failed to choose pdev
+мая 27 19:13:43 PM2 org.gnome.TextEditor[11370]: libEGL warning: egl: failed to create dri2 screen
+мая 27 19:13:44 PM2 gnome-text-editor[11370]: Failed to load file: Ошибка открытия файла /home/semikin/dump/00-installer-config.yaml: Отказано в доступе
+мая 27 19:13:44 PM2 polkitd[1609]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+мая 27 19:13:44 PM2 systemd[1]: Starting polkit-agent-helper@1-4097-3428_8848-1000.service - Authorization Manager Agent Helper (PID 3428/UID 1000)...
+мая 27 19:13:49 PM2 systemd[1]: polkit-agent-helper@1-4097-3428_8848-1000.service: Deactivated successfully.
+мая 27 19:13:49 PM2 systemd[1]: Finished polkit-agent-helper@1-4097-3428_8848-1000.service - Authorization Manager Agent Helper (PID 3428/UID 1000).
+мая 27 19:14:40 PM2 systemd[1]: Starting prometheus-node-exporter-apt.service - Collect apt metrics for prometheus-node-exporter...
+мая 27 19:14:40 PM2 systemd[1]: Starting prometheus-node-exporter-nvme.service - Collect NVMe metrics for prometheus-node-exporter...
+мая 27 19:14:40 PM2 systemd[1]: Starting prometheus-node-exporter-smartmon.service - Collect SMART metrics for prometheus-node-exporter...
+мая 27 19:14:40 PM2 systemd[1]: prometheus-node-exporter-nvme.service: Deactivated successfully.
+мая 27 19:14:40 PM2 systemd[1]: Finished prometheus-node-exporter-nvme.service - Collect NVMe metrics for prometheus-node-exporter.
+мая 27 19:14:40 PM2 systemd[1]: prometheus-node-exporter-smartmon.service: Deactivated successfully.
+мая 27 19:14:40 PM2 systemd[1]: Finished prometheus-node-exporter-smartmon.service - Collect SMART metrics for prometheus-node-exporter.
+мая 27 19:14:41 PM2 systemd[1]: prometheus-node-exporter-apt.service: Deactivated successfully.
+мая 27 19:14:41 PM2 systemd[1]: Finished prometheus-node-exporter-apt.service - Collect apt metrics for prometheus-node-exporter.
+мая 27 19:14:41 PM2 systemd[1]: prometheus-node-exporter-apt.service: Consumed 791ms CPU time over 898ms wall clock time, 108.5M memory peak.
+мая 27 19:16:22 PM2 org.gnome.Nautilus[9819]: Trying to close AdwAlertDialog 0x558106834ea0 that's not presented
+мая 27 19:16:22 PM2 gnome-shell[3428]: Type GITypeInfo of property Clutter.BrightnessContrastEffect::brightness does not match type GITypeInfo of first argument of setter set_brightness. Falling back to slow path
+мая 27 19:16:53 PM2 gnome-text-editor[11370]: Failed to load file: Ошибка открытия файла /home/semikin/dump/pg_hba.conf: Отказано в доступе
+мая 27 19:17:01 PM2 CRON[11826]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+мая 27 19:17:01 PM2 CRON[11828]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+мая 27 19:17:01 PM2 CRON[11826]: pam_unix(cron:session): session closed for user root
+мая 27 19:18:05 PM2 kernel: audit: type=1400 audit(1779909485.268:279): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/home/semikin/dump/postgresql.conf" pid=9951 comm=53747265616D547E6E732023313233 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+мая 27 19:18:18 PM2 xdg-document-portal[3254]: removing transfer 1493881545474858038917634995386760053461 for dead peer :1.153
+мая 27 19:18:18 PM2 xdg-document-portal[3254]: removing transfer 15489001553387633007106931975098022950 for dead peer :1.153
+мая 27 19:18:18 PM2 xdg-document-portal[3254]: removing transfer 9946121072221203023718690071732492051 for dead peer :1.153
+мая 27 19:18:18 PM2 xdg-document-portal[3254]: removing transfer 273623286480299472512257240025261502511 for dead peer :1.153
+мая 27 19:18:32 PM2 dbus-daemon[3120]: [session uid=1000 pid=3120 pidfd=5] Activating service name='org.gnome.Nautilus' requested by ':1.24' (uid=1000 pid=3428 comm="/usr/bin/gnome-shell --mode=ubuntu" label="unconfined")
+мая 27 19:18:32 PM2 org.gnome.Nautilus[11890]: Connecting to org.freedesktop.Tracker3.Miner.Files
+мая 27 19:18:32 PM2 dbus-daemon[3120]: [session uid=1000 pid=3120 pidfd=5] Successfully activated service 'org.gnome.Nautilus'
+мая 27 19:18:33 PM2 org.gnome.Nautilus[11890]: libEGL warning: failed to get driver name for fd -1
+мая 27 19:18:33 PM2 org.gnome.Nautilus[11890]: libEGL warning: MESA-LOADER: failed to retrieve device information
+мая 27 19:18:33 PM2 org.gnome.Nautilus[11890]: libEGL warning: failed to get driver name for fd -1
+мая 27 19:18:33 PM2 org.gnome.Nautilus[11890]: MESA: error: ZINK: failed to choose pdev
+мая 27 19:18:33 PM2 org.gnome.Nautilus[11890]: libEGL warning: egl: failed to create dri2 screen
+мая 27 19:18:33 PM2 dbus-daemon[1592]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1178' (uid=1000 pid=11890 comm="/usr/bin/nautilus --gapplication-service" label="unconfined")
+мая 27 19:18:33 PM2 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+мая 27 19:18:33 PM2 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+мая 27 19:18:33 PM2 dbus-daemon[1592]: [system] Successfully activated service 'org.freedesktop.hostname1'
+мая 27 19:19:03 PM2 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+мая 27 19:20:10 PM2 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+мая 27 19:20:10 PM2 systemd[1]: sysstat-collect.service: Deactivated successfully.
+мая 27 19:20:10 PM2 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+мая 27 19:24:15 PM2 update-notifier[3609]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+мая 27 19:24:15 PM2 update-notifier[3609]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+мая 27 19:24:15 PM2 gnome-shell[3428]: Cursor update failed: drmModeAtomicCommit: Недопустимый аргумент
+мая 27 19:29:40 PM2 systemd[1]: Starting prometheus-node-exporter-apt.service - Collect apt metrics for prometheus-node-exporter...
+мая 27 19:29:40 PM2 systemd[1]: Starting prometheus-node-exporter-nvme.service - Collect NVMe metrics for prometheus-node-exporter...
+мая 27 19:29:40 PM2 systemd[1]: Starting prometheus-node-exporter-smartmon.service - Collect SMART metrics for prometheus-node-exporter...
+мая 27 19:29:40 PM2 systemd[1]: prometheus-node-exporter-nvme.service: Deactivated successfully.
+мая 27 19:29:40 PM2 systemd[1]: Finished prometheus-node-exporter-nvme.service - Collect NVMe metrics for prometheus-node-exporter.
+мая 27 19:29:40 PM2 systemd[1]: prometheus-node-exporter-smartmon.service: Deactivated successfully.
+мая 27 19:29:40 PM2 systemd[1]: Finished prometheus-node-exporter-smartmon.service - Collect SMART metrics for prometheus-node-exporter.
+мая 27 19:29:40 PM2 systemd[1]: prometheus-node-exporter-apt.service: Deactivated successfully.
+мая 27 19:29:40 PM2 systemd[1]: Finished prometheus-node-exporter-apt.service - Collect apt metrics for prometheus-node-exporter.
+мая 27 19:29:40 PM2 systemd[1]: prometheus-node-exporter-apt.service: Consumed 619ms CPU time over 704ms wall clock time, 103.2M memory peak.
+мая 27 19:30:01 PM2 CRON[12248]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+мая 27 19:30:01 PM2 CRON[12250]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+мая 27 19:30:01 PM2 CRON[12248]: pam_unix(cron:session): session closed for user root
+мая 27 19:30:10 PM2 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+мая 27 19:30:10 PM2 systemd[1]: sysstat-collect.service: Deactivated successfully.
+мая 27 19:30:10 PM2 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+мая 27 19:34:18 PM2 snapd[1631]: storehelpers.go:914: cannot refresh: snap has no updates available: "bare", "core24", "desktop-security-center", "firefox", "firmware-updater", "gnome-46-2404", "gtk-common-themes", "mesa-2404", "prompting-client", "snap-store", "snapd", "snapd-desktop-integration"
+мая 27 19:35:10 PM2 systemd[1]: Started anacron.service - Run anacron jobs.
+мая 27 19:35:10 PM2 anacron[12290]: Anacron 2.3 started on 2026-05-27
+мая 27 19:35:10 PM2 anacron[12290]: Normal exit (0 jobs run)
+мая 27 19:35:10 PM2 systemd[1]: anacron.service: Deactivated successfully.
+мая 27 19:40:10 PM2 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+мая 27 19:40:10 PM2 systemd[1]: sysstat-collect.service: Deactivated successfully.
+мая 27 19:40:10 PM2 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+мая 27 19:42:11 PM2 dbus-daemon[1592]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.84' (uid=1000 pid=3428 comm="/usr/bin/gnome-shell --mode=ubuntu" label="unconfined")
+мая 27 19:42:11 PM2 systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+мая 27 19:42:11 PM2 dbus-daemon[1592]: [system] Successfully activated service 'net.reactivated.Fprint'
+мая 27 19:42:11 PM2 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+мая 27 19:42:14 PM2 gdm-password][12336]: gkr-pam: unlocked login keyring
+мая 27 19:42:15 PM2 gnome-shell[3428]: Launching DING process
+мая 27 19:42:15 PM2 gnome-shell[3428]: DING: Detected async api for thumbnails
+мая 27 19:42:15 PM2 gnome-shell[3428]: DING: ** Message: 19:42:15.859: Connecting to org.freedesktop.Tracker3.Miner.Files
+мая 27 19:42:15 PM2 gnome-shell[3428]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+мая 27 19:42:15 PM2 gnome-shell[3428]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+мая 27 19:42:15 PM2 gnome-shell[3428]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+мая 27 19:42:15 PM2 gnome-shell[3428]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+мая 27 19:42:15 PM2 gnome-shell[3428]: DING: GNOME nautilus 50.0
+мая 27 19:42:15 PM2 gnome-shell[3428]: Received notification for window. 0 notifications remaining.
+мая 27 19:42:42 PM2 systemd[1]: fprintd.service: Deactivated successfully.
+мая 27 19:43:29 PM2 sudo[12443]: pam_unix(sudo:session): session opened for user root(uid=0) by semikin(uid=1000)
+мая 27 19:43:29 PM2 sudo[12443]: semikin : TTY=/dev/pts/0 ; PWD=/home/semikin ; USER=root ; COMMAND=/usr/bin/journalctl -n 100 --no-pager
